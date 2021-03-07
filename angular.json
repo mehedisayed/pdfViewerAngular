@@ -25,7 +25,12 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/ngx-extended-pdf-viewer/assets/",
+                "output": "/assets/"
+              }
             ],
             "styles": [
               "src/styles.scss"
@@ -123,6 +128,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pdfViewerAngular"
+    }
+  },
+  "defaultProject": "pdfViewerAngular",
+  "cli": {
+    "analytics": "710fe996-bc82-49b2-9f3a-6c3e6690603d"
+  }
 }
