@@ -1,3 +1,15 @@
+<!--<ngx-extended-pdf-viewer
+  [src]="'assets/pdf-test.pdf'" useBrowserLocale="true" height="100%" [textLayer]="true"
+  [showHandToolButton]="true">
+</ngx-extended-pdf-viewer>-->
+
 <ngx-extended-pdf-viewer
-  [src]="'assets/pdf-test.pdf'" useBrowserLocale="true" height="100%" [textLayer]="true">
+  [base64Src]="base64"
+  backgroundColor="#ffffff"
+  [height]="'100%'"
+  [useBrowserLocale]="true"
+  [handTool]="false"
+  [textLayer]="true"
+  [showHandToolButton]="true"
+>
 </ngx-extended-pdf-viewer>
